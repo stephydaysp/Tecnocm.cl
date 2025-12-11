@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tecnocm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Oxanium:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo_pestana.png" type="image/png">
+  <link rel="shortcut icon" href="assets/logo_pestana.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Fondos en canvas -->
+  <canvas id="stars"></canvas>
+  <canvas id="beam"></canvas>
+
+  <header>
+    <div class="container topbar">
+      <a class="logo" href="#">
+        <span class="logo-container">
+          <img src="assets/logotecno_cmc.png" alt="tecnocm logo" class="logo-mark">
+        </span>
+        <span class="wordmark">tecnocm</span>
+      </a>
+      <button id="hamburger-btn" class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="main-nav">
+        <a href="#features">Arma tu PC</a>
+        <a href="#gallery">Servicios</a>
+        <a href="#cta">Contacto</a>
+      </nav>
+    </div>
+    <div class="christmas-banner" aria-hidden="true">
+      <p>
+        <span>Ofertas Imperdibles esta Navidad</span>
+        <span class="snowflake">❄</span>
+        <span>HASTA UN 30% DE DCTO</span>
+        <span class="snowflake">❄</span>
+        <span>PAGA HASTA 12 CUOTAS SIN INTERÉS</span>
+        <span class="snowflake">❄</span>
+        <span>ENVÍOS A TODO CHILE</span>
+        <span class="snowflake">❄</span>
+        <span>CON GARANTÍA DE FÁBRICA</span>
+        <span class="snowflake">❄</span>
+        <!-- Repetición para bucle infinito y suave -->
+        <span>Ofertas Imperdibles esta Navidad</span>
+        <span class="snowflake">❄</span>
+        <span>HASTA UN 30% DE DCTO</span>
+        <span class="snowflake">❄</span>
+        <span>PAGA HASTA 12 CUOTAS SIN INTERÉS</span>
+        <span class="snowflake">❄</span>
+        <span>ENVÍOS A TODO CHILE</span>
+        <span class="snowflake">❄</span>
+        <span>CON GARANTÍA DE FÁBRICA</span>
+        <span class="snowflake">❄</span>
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="kicker">Equipos a tu Medida •  Mejor Rendimiento</div>
+      <h1 class="neon-text">Más que un computador: Creamos tu herramienta perfecta</h1>
+      <p class="subtitle">Diseñamos, mantenemos y optimizamos tu equipo para que rinda siempre al máximo nivel. Armado personalizado, reparación y actualización con precisión técnica.</p>
+      <div class="zooming-text-container">
+        <span id="zooming-text"></span>
+      </div>
+
+      <div class="btns">
+        <div class="main-cta-group">
+          <a class="btn grad1" href="#features">Ver Promociones</a>
+          <div class="social-icons-group">
+            <a href="https://www.instagram.com/tecnocm.cl/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2A29 29 0 0 0 23 11.75a29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2 class="neon-text" style="text-align:center; margin-bottom:18px; margin-top: 40px;">Arma tu PC</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4 L20 20 H4 Z" stroke="#00e5ff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Marcas de Componentes Principales</h3>
+            <ul>
+              <li>ASUS</li>
+              <li>MSI</li>
+              <li>Gigabyte</li>
+              <li>ASRock</li>
+              <li>AMD</li>
+              <li>Intel</li>
+              <li>NVIDIA</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="5" width="14" height="14" stroke="#a77bff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Memorias, Almacenamiento y Fuentes</h3>
+            <ul>
+              <li>Kingston / Kingston FURY</li>
+              <li>Corsair</li>
+              <li>Crucial</li>
+              <li>G.Skill</li>
+              <li>Samsung (EVO, PRO SSD)</li>
+              <li>Seagate</li>
+              <li>Western Digital</li>
+              <li>EVGA</li>
+              <li>Seasonic</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="8" stroke="#a77bff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Refrigeración y Gabinetes</h3>
+            <ul>
+              <li>Cooler Master</li>
+              <li>NZXT</li>
+              <li>DeepCool</li>
+              <li>Thermaltake</li>
+              <li>Noctua</li>
+              <li>Be Quiet!</li>
+              <li>Lian Li</li>
+              <li>Phanteks</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="6" y1="6" x2="18" y2="18" stroke="#00e5ff" stroke-width="2"/>
+                <line x1="18" y1="6" x2="6" y2="18" stroke="#00e5ff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Periféricos Gamer y Accesorios</h3>
+            <ul>
+              <li>Logitech G</li>
+              <li>Razer</li>
+              <li>SteelSeries</li>
+              <li>HyperX</li>
+              <li>Redragon</li>
+              <li>Corsair Gaming</li>
+              <li>Cooler Master Gaming</li>
+              <li>Monitores (AOC, ASUS, MSI)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z" stroke="#00e5ff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>Audio y Streaming</h3>
+            <ul>
+              <li>Blue (Logitech)</li>
+              <li>Elgato</li>
+              <li>Rode</li>
+              <li>HyperX</li>
+              <li>Razer Seiren</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3l3 5-3 5-3-5 3-5z" stroke="#a77bff" stroke-width="2"/>
+                <circle cx="12" cy="19" r="2" stroke="#a77bff" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>RGB y Estética Gamer</h3>
+            <ul>
+              <li>Corsair iCUE</li>
+              <li>ASUS Aura Sync</li>
+              <li>MSI Mystic Light</li>
+              <li>Cooler Master MasterPlus+</li>
+              <li>NZXT CAM</li>
+            </ul>
+          </article>
+          <article class="card full-width-card" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 16px;">
+            <p style="margin:0; font-size: 0.95rem;">Llena el formulario para que un especialista revise los requerimientos que necesitas para que te ayudemos a definir un equipo a tu medida</p>
+            <a class="btn" style="--g1: var(--neon4); --g2: var(--neon2); margin-top: 10px;" href="https://docs.google.com/forms/d/e/1FAIpQLSdtSLMwS_STjS2eiOwLQkJIMVKVMYvOolln7JAUhZ0iVws_Ng/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+              Formulario
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2 class="neon-text" style="text-align:center; margin-bottom:18px;">Servicios</h2>
+        <div class="gallery">
+          <div class="frame">
+            <div class="frame-label">Armado de Equipos</div>
+            <img alt="Servicio 1" src="assets/1.png"/>
+          </div>
+          <div class="frame">
+            <div class="frame-label">Mantenimiento</div>
+            <img alt="Servicio 2" src="assets/2.png"/>
+          </div>
+          <div class="frame">
+            <div class="frame-label">Actualizaciones</div>
+            <img alt="Servicio 3" src="assets/3.png"/>
+          </div>
+          <div class="frame">
+            <div class="frame-label">Asesoría</div>
+            <img alt="Servicio 4" src="assets/4.png"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <div class="container" style="text-align:center;">
+        <h2 class="neon-text" style="margin-bottom:28px;">Contacto</h2>
+        <form id="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+            <input type="email" id="email" name="email" placeholder="Tu Email" required>
+          </div>
+          <input type="tel" id="phone" name="phone" placeholder="Tu Teléfono (Opcional)">
+          <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          <button type="submit" class="btn grad1">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ⚔️  <span class="neon-text">tecnocm</span>  ⚔️
+  </footer>
+
+  <script src="js/script.js"></script>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/TUNUMEROAQUI" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <img src="assets/Whatsapp_icon.png" alt="WhatsApp">
+  </a>
+</body>
+</html>
